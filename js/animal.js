@@ -1,3 +1,7 @@
 $(document).ready(function() {
-  $(".animal").hide();
+    $(".animal").hide();
+    $("#button").submit(function(){
+
+      event.preventDefault();
+    });
 });
